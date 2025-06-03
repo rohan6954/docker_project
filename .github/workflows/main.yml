@@ -1,4 +1,4 @@
-name: FastAPI CI/CD
+name: docker_project-cicd
 
 on:
   push:
@@ -28,5 +28,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: yourdockerhubusername/fastapi-cicd:latest
-
+        tags: tags: malirohan/docker_project-cicd:latest
