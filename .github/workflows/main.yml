@@ -1,4 +1,4 @@
-name: Build and Dockerize FastAPI App
+name: Build and Dockerize FastAPI App   #for FastAPI application CI/CD
 
 on:
   push:
